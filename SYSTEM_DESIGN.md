@@ -8,9 +8,14 @@ SafeNet is an enterprise-grade, multi-modal content moderation system. It combin
 
 SafeNet processes text, images, and videos submitted by users in real time. It evaluates the content against safety policies and automatically approves, rejects, or routes flagged content to human moderation queues.
 
-### High-Level Architecture
+### High-Level Architecture (Simplified)
+
+![SafeNet Simple System Architecture](/Users/thakaregrishma/.gemini/antigravity-ide/brain/48628317-3405-4040-b9fc-98ea76334032/safenet_simple_architecture_1782108469404.png)
+
+### High-Level Architecture (Detailed)
 
 ![SafeNet System Architecture](/Users/thakaregrishma/.gemini/antigravity-ide/brain/48628317-3405-4040-b9fc-98ea76334032/safenet_system_architecture_1782058507441.png)
+
 
 ```mermaid
 graph TD
