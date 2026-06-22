@@ -86,6 +86,11 @@ sequenceDiagram
 
 ## 3. Detailed Component Architecture
 
+### Moderation Pipeline Hierarchy Pyramid
+
+![SafeNet Moderation Pipeline Hierarchy](/Users/thakaregrishma/.gemini/antigravity-ide/brain/48628317-3405-4040-b9fc-98ea76334032/safenet_moderation_pyramid_1782108596738.png)
+
+
 ### A. Ingestion Service
 - **Platform**: Node.js + Express + TypeScript.
 - **Media Storage**: Uses `multer` middleware. If configured, files are uploaded directly to **Cloudinary**; otherwise, they fall back to local disk storage (`/uploads`) for local testing.
